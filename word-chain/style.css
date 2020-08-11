@@ -1,0 +1,12 @@
+span {
+    display: block;
+    font-size: x-large;
+}
+
+input[type=text], [type=submit] {
+    font-size: x-large;
+}
+
+.invisible {
+    display: none;
+}
