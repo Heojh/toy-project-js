@@ -46,17 +46,15 @@ function textCheck(event) {
         wrong.classList.add('invisible');
         question.textContent = answerText;
         answer.value = '';
-        answer.focus();
     } else {
         wrong.classList.remove('invisible');
         answer.value = '';
-        answer.focus();
     }
 }
 
 function init() {
+    answer.focus();
     submitBtn.addEventListener('click', textCheck);
 }
 
-answer.focus();
 init();
