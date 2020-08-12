@@ -1,6 +1,7 @@
 span {
     display: block;
     font-size: x-large;
+    margin-top: 5px;
 }
 
 input[type=text], [type=submit] {
