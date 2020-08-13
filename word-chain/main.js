@@ -22,7 +22,7 @@ function textCheck(event) {
 
     if(firstChar === lastChar) {
         wrong.classList.add('invisible');
-        question.textContent = answerText;
+        question.textContent = `문제 : ${answerText}`;
         answer.value = '';
         paintScore(100);
     } else {
