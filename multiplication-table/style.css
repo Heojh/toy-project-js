@@ -1,0 +1,11 @@
+* {
+    font-size: xx-large;
+}
+
+.title {
+    display: block;
+}
+
+form {
+    display: inline-block;
+}
