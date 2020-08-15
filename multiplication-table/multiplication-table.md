@@ -15,6 +15,7 @@ multiplication-table : 구구단
 <br/>
 
 <h4>분석</h4>
+
 **작동 원리** <br />
 '랜덤으로 뽑히는 두 수의 곱'과 사용자가 입력한 값이 맞는지 비교한다.<br/>
 
@@ -34,7 +35,18 @@ multiplication-table : 구구단
 <br />
 
 <h4>정보</h4>
-정해진 범위안에 있는 숫자를 랜덤으로 얻기. 👉 `Math.random()` <br />
-랜점으로 출력되는 난수 정수로 만들기. 👉 `Math.ceil(), Math.floor()` <br />
-'두 수의 곱'의 값과 사용자가 입력한 값을 비교하기. 👉 `num1.textContent * num2.textContent = input.value` <br />
-정해진 과정을 반복. <br />
+정해진 범위안에 있는 숫자를 랜덤으로 얻기. <br />
+👉 `Math.random()` <br />
+
+랜점으로 출력되는 난수 정수로 만들기. <br />
+👉 `Math.ceil(), Math.floor()` <br />
+
+'두 수의 곱'의 값과 사용자가 입력한 값을 비교하기. <br />
+👉 `num1.textContent * num2.textContent = input.value` <br />
+
+정해진 과정을 반복.
+
+<br />
+
+<h4>개선점</h4>
+👉 새로운 작업 및 기능을 구현할 때마다 `git commit`을 한다❗❗❗ <br />
