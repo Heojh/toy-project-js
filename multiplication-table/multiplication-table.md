@@ -1,4 +1,4 @@
-multiplication-table : 구구단
+Multiplication table : 구구단
 - 
 사전적 정의 : <br />
 곱셈에 쓰는 기초 공식. 1에서 9까지의 각 수를 두 수끼리 서로 곱하여 그 값을 나타내는 '구구법'을 일상적으로 부르는 말.<br />
@@ -38,7 +38,7 @@ multiplication-table : 구구단
 정해진 범위안에 있는 숫자를 랜덤으로 얻기. <br />
 👉 `Math.random()` <br />
 
-랜점으로 출력되는 난수 정수로 만들기. <br />
+랜덤으로 출력되는 난수 정수로 만들기. <br />
 👉 `Math.ceil(), Math.floor()` <br />
 
 '두 수의 곱'의 값과 사용자가 입력한 값을 비교하기. <br />
