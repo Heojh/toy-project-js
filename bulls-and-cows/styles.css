@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.header__title {
+    margin-top: 200px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.current {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.current > span {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+.btn-list {
+    margin-top: 20px;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    border: none;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.confirm,
+.delete {
+    width: 100px;
+}
+
+.scoreboard {
+    margin-top: 5px;
+    width: 700px;
+    height: 50px;
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.scoreboard >.try,
+.select,
+.bulls,
+.cows,
+.out {
+    width:140px;
+    text-align: center;
+    line-height: 50px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.try {
+    border-left: 1px solid black;
+}
