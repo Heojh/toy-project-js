@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Bulls and Cows</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header>
@@ -11,25 +12,24 @@
     </header>
 
     <section class="current">
-        <span class="current__first">1</span>
-        <span class="current__second">2</span>
-        <span class="current__third">3</span>
+        <span class="current__number"></span>
     </section>
 
     <section class="btn-list">
-        <button class="btn number">1</button>
-        <button class="btn number">2</button>
-        <button class="btn number">3</button>
-        <button class="btn number">4</button>
-        <button class="btn number">5</button>
-        <button class="btn number">6</button>
-        <button class="btn number">7</button>
-        <button class="btn number">8</button>
-        <button class="btn number">9</button>
-        <button class="btn confirm">Confirm</button>
-        <button class="btn delete">Delete</button>
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="confirm">Confirm</button>
+        <button class="delete">Delete</button>
     </section>
 
+    <div class="score-list">
     <section class="scoreboard">
         <div class="try">Try</div>
         <div class="select">Select Number</div>
@@ -37,5 +37,6 @@
         <div class="cows">Cows</div>
         <div class="out">Out</div>
     </section>
+    </div>
 </body>
 </html>
