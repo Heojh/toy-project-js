@@ -35,6 +35,9 @@ Multiplication table : 구구단
 <br />
 
 <h4>정보</h4>
+문자열에서 숫자 얻기 <br />
+👉 `string.replace(/[^0-9]/g,'')`
+
 정해진 범위안에 있는 숫자를 랜덤으로 얻기. <br />
 👉 `Math.random()` <br />
 
